@@ -11,8 +11,6 @@
 > [Django 文档协作翻译小组](http://python.usyiyi.cn/django/index.html)人手紧缺，有兴趣的朋友可以加入我们，完全公益性质。交流群：467338606。
 
 +   [在线阅读](https://nltk.apachecn.org)
-+   [在线阅读（Gitee）](https://apachecn.gitee.io/nlp-py-2e-zh/)
-
 本版本的 NLTK 已经针对 Python 3 和 NLTK 3 更新。本书的第一版由 O'Reilly 出版，可以在 [http://nltk.org/book_1ed/](http://nltk.org/book_1ed/) 访问到。（本书目前没有计划出第二版）
 
 本版本的初译基于[原书第一版的翻译](http://www.52nlp.cn/resources)，参见第一版[译者的话](./15.html)。
@@ -28,14 +26,6 @@
 ```
 docker pull apachecn0/nlp-py-2e-zh
 docker run -tid -p <port>:80 apachecn0/nlp-py-2e-zh
-# 访问 http://localhost:{port} 查看文档
-```
-
-### PYPI
-
-```
-pip install nlp-py-2e-zh
-nlp-py-2e-zh <port>
 # 访问 http://localhost:{port} 查看文档
 ```
 
